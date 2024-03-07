@@ -1,5 +1,5 @@
 # Ancient Warfare Structure Template File
-# Auto-generated structure template file. created on: 3/6/2024 at: 23:14:27
+# Auto-generated structure template file. created on: 3/7/2024 at: 11:34:2
 # Lines beginning with # denote comments
 
 header:
@@ -12,7 +12,7 @@ offset=11,5,21
 
 #### VALIDATION ####
 validation:
-type=island
+type=ground
 structureAuthor=TheOddlySeagull
 survival=false
 worldGenEnabled=true
@@ -33,8 +33,8 @@ border=6
 blockSwap=false
 territoryName=sarkonid
 biomeReplacement=minecraft:
-minWaterDepth=0
-maxWaterDepth=0
+minGenerationHeight=0
+maxGenerationHeight=255
 :endvalidation
 
 #### LAYERS ####
@@ -692,7 +692,7 @@ rule:
 plugin=blockTile
 number=16
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:6,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.civilian.male",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:1,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.civilian.male",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -700,7 +700,7 @@ rule:
 plugin=blockTile
 number=17
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:6,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{id:"ancientwarfarenpc:golden_spear",Count:1b,Damage:0s},{id:"ancientwarfarenpc:gold_shield",Count:1b,Damage:0s}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:1,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{id:"ancientwarfarenpc:golden_spear",Count:1b,Damage:0s},{id:"ancientwarfarenpc:gold_shield",Count:1b,Damage:0s}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -716,7 +716,7 @@ rule:
 plugin=blockTile
 number=19
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:3,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.civilian.female",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:5,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.civilian.female",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -724,7 +724,7 @@ rule:
 plugin=blockTile
 number=20
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:3,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{id:"ancientwarfarenpc:golden_spear",Count:1b,Damage:0s},{id:"ancientwarfarenpc:gold_shield",Count:1b,Damage:0s}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:5,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{id:"ancientwarfarenpc:golden_spear",Count:1b,Damage:0s},{id:"ancientwarfarenpc:gold_shield",Count:1b,Damage:0s}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -740,7 +740,7 @@ rule:
 plugin=blockTile
 number=22
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:1,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{id:"minecraft:bow",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.archer",minToSpawn:1}],groupWeight:1}],playerRange:32,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:3,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{id:"minecraft:bow",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.archer",minToSpawn:1}],groupWeight:1}],playerRange:32,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -748,7 +748,7 @@ rule:
 plugin=blockTile
 number=23
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:8,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.civilian.male",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:10,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.civilian.male",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -812,7 +812,7 @@ rule:
 plugin=blockTile
 number=31
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:8,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{id:"ancientwarfarenpc:golden_spear",Count:1b,Damage:0s},{id:"ancientwarfarenpc:gold_shield",Count:1b,Damage:0s}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:10,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{id:"ancientwarfarenpc:golden_spear",Count:1b,Damage:0s},{id:"ancientwarfarenpc:gold_shield",Count:1b,Damage:0s}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -820,7 +820,7 @@ rule:
 plugin=blockTile
 number=32
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:3,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.civilian.female",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:5,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.civilian.female",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -828,7 +828,7 @@ rule:
 plugin=blockTile
 number=33
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:1,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{id:"ancientwarfarenpc:golden_spear",Count:1b,Damage:0s},{id:"ancientwarfarenpc:gold_shield",Count:1b,Damage:0s}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:2,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{id:"ancientwarfarenpc:golden_spear",Count:1b,Damage:0s},{id:"ancientwarfarenpc:gold_shield",Count:1b,Damage:0s}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -836,7 +836,7 @@ rule:
 plugin=blockTile
 number=34
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:10,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{id:"ancientwarfarenpc:golden_spear",Count:1b,Damage:0s},{id:"ancientwarfarenpc:gold_shield",Count:1b,Damage:0s}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:1,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{id:"ancientwarfarenpc:golden_spear",Count:1b,Damage:0s},{id:"ancientwarfarenpc:gold_shield",Count:1b,Damage:0s}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -852,7 +852,7 @@ rule:
 plugin=blockTile
 number=36
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:8,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{id:"minecraft:bow",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.mounted_archer",minToSpawn:1}],groupWeight:1}],playerRange:32,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:3,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{id:"minecraft:bow",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.mounted_archer",minToSpawn:1}],groupWeight:1}],playerRange:32,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -884,7 +884,7 @@ rule:
 plugin=blockTile
 number=40
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:9,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{id:"ancientwarfarenpc:golden_spear",Count:1b,Damage:0s},{id:"ancientwarfarenpc:gold_shield",Count:1b,Damage:0s}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:4,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{id:"ancientwarfarenpc:golden_spear",Count:1b,Damage:0s},{id:"ancientwarfarenpc:gold_shield",Count:1b,Damage:0s}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -924,7 +924,7 @@ rule:
 plugin=blockTile
 number=45
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:8,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{id:"ancientwarfarenpc:golden_lance",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.cavalry",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:3,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{id:"ancientwarfarenpc:golden_lance",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.cavalry",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -940,7 +940,7 @@ rule:
 plugin=blockTile
 number=47
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:7,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.civilian.female",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:2,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.civilian.female",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -1060,7 +1060,7 @@ rule:
 plugin=blockTile
 number=62
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:7,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.civilian.male",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:2,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"sarkonid",HandItems:[{},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.civilian.male",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
