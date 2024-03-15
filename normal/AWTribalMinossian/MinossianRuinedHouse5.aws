@@ -1,6 +1,5 @@
-# minified
 # Ancient Warfare Structure Template File
-# Auto-generated structure template file. created on: 1/2/2021 at: 10:40:33
+# Auto-generated structure template file. created on: 3/15/2024 at: 14:31:52
 # Lines beginning with # denote comments
 
 header:
@@ -8,26 +7,26 @@ version=2.11
 name=MinossianRuinedHouse5
 mods=
 size=15,13,13
-offset=7,6,12
+offset=10,6,12
 :endheader
 
 #### VALIDATION ####
 validation:
 type=ground
-structureAuthor=
+structureAuthor=TheOddlySeagull
 survival=false
 worldGenEnabled=true
 unique=false
 preserveBlocks=false
 preventNaturalHostileSpawns=true
-selectionWeight=30
-clusterValue=100
+selectionWeight=50
+clusterValue=10
 minDuplicateDistance=1000
 dimensionWhiteList=true
 dimensionList=0
-biomeGroupList=
+biomeGroupList=minossian
 biomeWhiteList=true
-biomeList=biomesoplenty:tropical_island,biomesoplenty:mangrove,nt:iron_beach,nt:orange_beach,nt:purple_beach,nt:aegean_archipelago,minecraft:beaches,nt:black_beach,biomesoplenty:white_beach,biomesoplenty:origin_beach
+biomeList=biomesoplenty:tropical_island,nt:iron_beach,biomesoplenty:origin_beach,nt:orange_beach,nt:purple_beach,nt:aegean_archipelago,biomesoplenty:white_beach,minecraft:beaches,biomesoplenty:mangrove,nt:black_beach
 leveling=12
 fill=12
 border=6
@@ -39,119 +38,202 @@ maxGenerationHeight=255
 :endvalidation
 
 #### LAYERS ####
-layer: 0-3
-13x1|15
+layer: 0
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+:endlayer
+layer: 1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+:endlayer
+layer: 2
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+:endlayer
+layer: 3
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 :endlayer
 layer: 4
-2|15
-2,1,2|13
-2,1|13,2
-2,1|3,13,0,5,12,0,5,0|2,1|2,2
-2,1|3,11,0,5,0|2,10,0,9,1,2|2
-2,1|3,0|2,5,8,0,5,0,7,1,2|2
-2,1|3,0|2,5,0|2,1|4,2|2
-2,1|3,5,6,5,6,5,1|4,2|2
-2,1,4,0|5,3,1|4,2|2
-2,1|12,2|2
-2x2,1,2|13
-2|15
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+2,1,2,2,2,2,2,2,2,2,2,2,2,2,2
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,2
+2,1,1,1,11,0,5,8,0,5,0,0,1,1,2
+2,1,1,1,12,0,5,0,0,6,0,3,1,2,2
+2,1,1,1,0,0,5,9,0,5,0,4,1,2,2
+2,1,1,1,0,0,5,0,0,1,1,1,1,2,2
+2,1,1,1,5,10,5,10,5,1,1,1,1,2,2
+2,1,13,0,0,0,0,0,7,1,1,1,1,2,2
+2,1,1,1,1,1,1,1,1,1,1,1,1,2,2
+2,1,2,2,2,2,2,2,2,2,2,2,2,2,2
+2,1,2,2,2,2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 :endlayer
 layer: 5
-2|15
-2x2,1|13,2
-2,1|3,0|2,5,0|2,5,0|2,1|2,2
-2,1|3,0|2,5,0|2,17,0|2,1|2,2
-2,1|3,0|2,5,0|2,5,0|2,1|2,2
-2,1|3,0|2,5,0|2,1|5,2
-2,1|3,5,16,5,15,5,1|5,2
-2,4,0|4,14,0|2,1|5,2
-3x2,1|13,2
-2|15
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,2
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,2
+2,1,1,1,0,0,5,0,0,5,0,0,1,1,2
+2,1,1,1,0,0,5,0,0,14,0,0,1,1,2
+2,1,1,1,0,0,5,0,0,5,0,0,1,1,2
+2,1,1,1,0,0,5,0,0,1,1,1,1,1,2
+2,1,1,1,5,17,5,15,5,1,1,1,1,1,2
+2,13,0,0,0,0,16,0,0,1,1,1,1,1,2
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,2
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,2
+2,1,1,1,1,1,1,1,1,1,1,1,1,1,2
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
 :endlayer
 layer: 6
-0|15
-0|5,21,30,0|2,4,24,29,0|3
-0|2,1|2,19,1|8,0|2
-0|2,1|2,0,25,5,27,25,5,27,25,1,0|2
-0|2,1|2,27,25,5,0|2,5,27,0,19,0|2
-0,21,1|2,27,25,5,0|2,5,27,25,1,0|2
-0,28,1|2,27,25,5,27,25,1|4,19,0
-0|2,1|2,5|5,1|4,26,0
-0|8,25,1|4,24,0
-0,22,1|11,20,0
-0,23,1|8,20|2,1,0|2
-0|6,22,21,20,19,0|2,18,0|2
-0|15
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,26,27,0,0,13,20,23,0,0,0
+0,0,1,1,18,1,1,1,1,1,1,1,1,0,0
+0,0,1,1,0,24,5,25,24,5,25,24,1,0,0
+0,0,1,1,25,24,5,0,0,5,25,0,18,0,0
+0,26,1,1,25,24,5,0,0,5,25,24,1,0,0
+0,29,1,1,25,24,5,25,24,1,1,1,1,18,0
+0,0,1,1,5,5,5,5,5,1,1,1,1,19,0
+0,0,0,0,0,0,0,0,24,1,1,1,1,20,0
+0,28,1,1,1,1,1,1,1,1,1,1,1,21,0
+0,30,1,1,1,1,1,1,1,1,21,21,1,0,0
+0,0,0,0,0,0,28,26,21,18,0,0,22,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 :endlayer
 layer: 7
-2x0|15
-0|2,30|4,1|4,30|3,0|2
-4x0|2,31,1|10,0|2
-0|2,31,1|10,19,0
-0|3,25,1|9,0|2
-0|2,31,1|7,20|2,1,0|2
-0|2,20|8,0|2,20,0|2
-2x0|15
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,27,27,27,27,1,1,1,1,27,27,27,0,0
+0,0,31,1,1,1,1,1,1,1,1,1,1,0,0
+0,0,31,1,1,1,1,1,1,1,1,1,1,0,0
+0,0,31,1,1,1,1,1,1,1,1,1,1,0,0
+0,0,31,1,1,1,1,1,1,1,1,1,1,0,0
+0,0,31,1,1,1,1,1,1,1,1,1,1,18,0
+0,0,0,24,1,1,1,1,1,1,1,1,1,0,0
+0,0,31,1,1,1,1,1,1,1,21,21,1,0,0
+0,0,21,21,21,21,21,21,21,21,0,0,21,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 :endlayer
 layer: 8
-2x0|15
-0|5,18|3,0,18|2,0|4
-0|3,26,32,26,0|3,32,26,32,26,0|2
-0|3,32,38,1,0|3,20,19,21,32,0|2
-0|2,28,26,21,32,24,0,21,37,0,28,26,0|2
-0|3,32,36,20,35,19,0|2,24,29,32,0|2
-0|3,26,34,0,21|2,0,26,0,33,26,0|2
-0|3,32|2,0|3,31,32,0|2,18,0|2
-0|3,26,32,26,32,26,32,26,0|2,18,0|2
-0|7,21,0|4,18,0|2
-2x0|15
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,22,22,22,0,22,22,0,0,0,0
+0,0,0,19,32,19,0,0,0,32,19,32,19,0,0
+0,0,0,32,36,1,0,0,0,21,18,26,32,0,0
+0,0,29,19,26,32,20,0,26,34,0,29,19,0,0
+0,0,0,32,37,21,35,18,0,0,20,23,32,0,0
+0,0,0,19,38,0,26,26,0,19,0,33,19,0,0
+0,0,0,32,32,0,0,0,31,32,0,0,22,0,0
+0,0,0,19,32,19,32,19,32,19,0,0,22,0,0
+0,0,0,0,0,0,0,26,0,0,0,0,22,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 :endlayer
 layer: 9
-3x0|15
-0|3,28,19,26,32,0|2,32,26,0,26,0|2
-0|3,32,0|8,32,0|2
-0|3,26,0|8,26,0|2
-0|3,19,0,24,0|6,19,0|2
-0|3,28,0|5,26,0,39,26,0|2
-0|3,32,21,0|4,19,0|5
-0|3,26,32,26,19,26,32,26,0|5
-3x0|15
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,29,18,19,32,0,0,32,19,0,19,0,0
+0,0,0,32,0,0,0,0,0,0,0,0,32,0,0
+0,0,0,19,0,0,0,0,0,0,0,0,19,0,0
+0,0,0,18,0,20,0,0,0,0,0,0,18,0,0
+0,0,0,29,0,0,0,0,0,19,0,39,19,0,0
+0,0,0,32,26,0,0,0,0,18,0,0,0,0,0
+0,0,0,19,32,19,18,19,32,19,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 :endlayer
 layer: 10
-3x0|15
-0|4,19,26,32|4,26,19,21,0|2
-0|3,32,0|11
-0|3,26,0|8,26,0|2
-0|15
-0|3,26,0|5,26,32,0,38,0|2
-0|3,32,0|5,19,0|5
-0|3,28,32,26,0,26,32,38,0|5
-3x0|15
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,18,19,32,32,32,32,19,18,26,0,0
+0,0,0,32,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,19,0,0,0,0,0,0,0,0,19,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,19,0,0,0,0,0,19,32,0,36,0,0
+0,0,0,32,0,0,0,0,0,18,0,0,0,0,0
+0,0,0,29,32,19,0,19,32,36,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 :endlayer
 layer: 11
-2x0|15
-0|6,21,43,41|2,0|5
-0|3,24,35,21,32,35,32,0,34,0|4
-0|12,35,41,0
-0|3,26,0|8,26,42,0
-0|12,32,41,0
-0|3,21,0|5,23,0|2,26,42,0
-0|10,41|4,0
-0|4,21,40,32,26,35|2,0|5
-0|5,41|2,40,21,0|6
-2x0|15
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,26,42,40,40,0,0,0,0,0
+0,0,0,20,35,26,32,35,32,0,38,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,35,40,0
+0,0,0,19,0,0,0,0,0,0,0,0,19,41,0
+0,0,0,0,0,0,0,0,0,0,0,0,32,40,0
+0,0,0,26,0,0,0,0,0,30,0,0,19,41,0
+0,0,0,0,0,0,0,0,0,0,40,40,40,40,0
+0,0,0,0,26,43,32,19,35,35,0,0,0,0,0
+0,0,0,0,0,40,40,43,26,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 :endlayer
 layer: 12
-3x0|15
-0|5,24|2,0,24|3,0|4
-0|11,29,0|3
-0|11,29,24,0|2
-0|12,24,0|2
-0|11,29,24,0|2
-0|11,41,21,0|2
-0|5,24|3,0|7
-3x0|15
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,20,20,0,20,20,20,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,23,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,23,20,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,20,0,0
+0,0,0,0,0,0,0,0,0,0,0,23,20,0,0
+0,0,0,0,0,0,0,0,0,0,0,40,26,0,0
+0,0,0,0,0,20,20,20,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 :endlayer
+
 #### RULES ####
 rule:
 plugin=vanillaBlocks
@@ -173,15 +255,15 @@ rule:
 plugin=blockTile
 number=3
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_loot_chest",properties:{facing:"west"}},teData:{lootSettings:{lootRolls:1,splashPotion:0b,hasMessage:0b,hasLoot:1b,lootTableName:"minecraft:chests/simple_dungeon",spawnEntity:0b,entity:"minecraft:"},Items:[],id:"ancientwarfarestructure:advanced_loot_chest_tile",Lock:""}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:2,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"minossian",HandItems:[{id:"minecraft:iron_axe",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier.elite",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
 rule:
-plugin=vanillaBlocks
+plugin=inventory
 number=4
 data:
-JSON:{blockState:{blockName:"minecraft:sandstone_stairs",properties:{half:"bottom",shape:"straight",facing:"west"}}}
+JSON:{blockState:{blockName:"minecraft:furnace",properties:{facing:"north"}},lootLevel:0,teData:{CookTime:0,BurnTime:0,Items:[],id:"minecraft:furnace",CookTimeTotal:0,Lock:""},inventoryData:{length:0,inventoryContents:[]},legacyFeatures:0b}
 :enddata
 :endrule
 
@@ -197,23 +279,23 @@ rule:
 plugin=doors
 number=6
 data:
-JSON:{blockState:{blockName:"minecraft:iron_door",properties:{hinge:"left",half:"lower",powered:"false",facing:"north",open:"false"}}}
-:enddata
-:endrule
-
-rule:
-plugin=inventory
-number=7
-data:
-JSON:{blockState:{blockName:"minecraft:furnace",properties:{facing:"north"}},lootLevel:0,teData:{CookTime:0,ForgeData:{generatedInventory:1b},BurnTime:0,Items:[],id:"minecraft:furnace",CookTimeTotal:0,Lock:""},inventoryData:{length:0,inventoryContents:[]},legacyFeatures:0b}
+JSON:{blockState:{blockName:"minecraft:spruce_door",properties:{hinge:"left",half:"lower",powered:"false",facing:"east",open:"false"}}}
 :enddata
 :endrule
 
 rule:
 plugin=blockTile
+number=7
+data:
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_loot_chest",properties:{facing:"west"}},teData:{lootSettings:{lootRolls:1,splashPotion:0b,hasMessage:0b,hasLoot:1b,lootTableName:"minecraft:chests/simple_dungeon",spawnEntity:0b,entity:"minecraft:"},Items:[],id:"ancientwarfarestructure:advanced_loot_chest_tile",Lock:""}}
+:enddata
+:endrule
+
+rule:
+plugin=vanillaBlocks
 number=8
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:5,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"minossian",HandItems:[{id:"minecraft:iron_axe",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier.elite",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:table",properties:{leg_southwest:"true",leg_northwest:"true",variant:"spruce",leg_northeast:"true",leg_southeast:"true"}}}
 :enddata
 :endrule
 
@@ -229,7 +311,7 @@ rule:
 plugin=doors
 number=10
 data:
-JSON:{blockState:{blockName:"minecraft:spruce_door",properties:{hinge:"left",half:"lower",powered:"false",facing:"east",open:"false"}}}
+JSON:{blockState:{blockName:"minecraft:iron_door",properties:{hinge:"left",half:"lower",powered:"false",facing:"north",open:"false"}}}
 :enddata
 :endrule
 
@@ -237,31 +319,31 @@ rule:
 plugin=blockTile
 number=11
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:8,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"minossian",HandItems:[{id:"minecraft:book",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.priest",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
-:enddata
-:endrule
-
-rule:
-plugin=vanillaBlocks
-number=12
-data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:table",properties:{leg_southwest:"true",leg_northwest:"true",variant:"spruce",leg_northeast:"true",leg_southeast:"true"}}}
-:enddata
-:endrule
-
-rule:
-plugin=blockTile
-number=13
-data:
 JSON:{blockState:{blockName:"ancientwarfarestructure:urn"},teData:{lootSettings:{lootRolls:1,splashPotion:0b,hasMessage:0b,hasLoot:1b,lootTableName:"ancientwarfare:chests/minossian",spawnEntity:0b,entity:"minecraft:"},id:"ancientwarfarestructure:urn_tile"}}
 :enddata
 :endrule
 
 rule:
+plugin=blockTile
+number=12
+data:
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:10,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"minossian",HandItems:[{id:"minecraft:book",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.priest",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+:enddata
+:endrule
+
+rule:
 plugin=vanillaBlocks
+number=13
+data:
+JSON:{blockState:{blockName:"minecraft:sandstone_stairs",properties:{half:"bottom",shape:"straight",facing:"west"}}}
+:enddata
+:endrule
+
+rule:
+plugin=doors
 number=14
 data:
-JSON:{blockState:{blockName:"minecraft:lever",properties:{powered:"false",facing:"south"}}}
+JSON:{blockState:{blockName:"minecraft:spruce_door",properties:{hinge:"left",half:"upper",powered:"false",facing:"east",open:"false"}}}
 :enddata
 :endrule
 
@@ -269,15 +351,15 @@ rule:
 plugin=doors
 number=15
 data:
-JSON:{blockState:{blockName:"minecraft:iron_door",properties:{hinge:"left",half:"upper",powered:"false",facing:"south",open:"false"}}}
+JSON:{blockState:{blockName:"minecraft:iron_door",properties:{hinge:"left",half:"upper",powered:"false",facing:"east",open:"false"}}}
 :enddata
 :endrule
 
 rule:
-plugin=doors
+plugin=vanillaBlocks
 number=16
 data:
-JSON:{blockState:{blockName:"minecraft:iron_door",properties:{hinge:"right",half:"upper",powered:"false",facing:"south",open:"false"}}}
+JSON:{blockState:{blockName:"minecraft:lever",properties:{powered:"false",facing:"south"}}}
 :enddata
 :endrule
 
@@ -285,7 +367,7 @@ rule:
 plugin=doors
 number=17
 data:
-JSON:{blockState:{blockName:"minecraft:spruce_door",properties:{hinge:"left",half:"upper",powered:"false",facing:"south",open:"false"}}}
+JSON:{blockState:{blockName:"minecraft:iron_door",properties:{hinge:"right",half:"upper",powered:"false",facing:"east",open:"false"}}}
 :enddata
 :endrule
 
@@ -293,7 +375,7 @@ rule:
 plugin=vanillaBlocks
 number=18
 data:
-JSON:{blockState:{blockName:"minecraft:birch_fence",properties:{east:"false",south:"false",north:"false",west:"false"}}}
+JSON:{blockState:{blockName:"minecraft:iron_bars",properties:{east:"false",south:"false",north:"false",west:"false"}}}
 :enddata
 :endrule
 
@@ -301,7 +383,7 @@ rule:
 plugin=vanillaBlocks
 number=19
 data:
-JSON:{blockState:{blockName:"minecraft:iron_bars",properties:{east:"false",south:"false",north:"false",west:"false"}}}
+JSON:{blockState:{blockName:"minecraft:quartz_block",properties:{variant:"lines_y"}}}
 :enddata
 :endrule
 
@@ -309,7 +391,7 @@ rule:
 plugin=vanillaBlocks
 number=20
 data:
-JSON:{blockState:{blockName:"minecraft:sandstone_stairs",properties:{half:"bottom",shape:"straight",facing:"north"}}}
+JSON:{blockState:{blockName:"minecraft:wooden_slab",properties:{half:"bottom",variant:"acacia"}}}
 :enddata
 :endrule
 
@@ -317,7 +399,7 @@ rule:
 plugin=vanillaBlocks
 number=21
 data:
-JSON:{blockState:{blockName:"minecraft:stone_slab",properties:{half:"bottom",variant:"quartz"}}}
+JSON:{blockState:{blockName:"minecraft:sandstone_stairs",properties:{half:"bottom",shape:"straight",facing:"north"}}}
 :enddata
 :endrule
 
@@ -325,7 +407,7 @@ rule:
 plugin=vanillaBlocks
 number=22
 data:
-JSON:{blockState:{blockName:"minecraft:quartz_block",properties:{variant:"lines_z"}}}
+JSON:{blockState:{blockName:"minecraft:birch_fence",properties:{east:"false",south:"false",north:"false",west:"false"}}}
 :enddata
 :endrule
 
@@ -333,7 +415,7 @@ rule:
 plugin=vanillaBlocks
 number=23
 data:
-JSON:{blockState:{blockName:"minecraft:quartz_stairs",properties:{half:"bottom",shape:"straight",facing:"north"}}}
+JSON:{blockState:{blockName:"minecraft:planks",properties:{variant:"acacia"}}}
 :enddata
 :endrule
 
@@ -341,7 +423,7 @@ rule:
 plugin=vanillaBlocks
 number=24
 data:
-JSON:{blockState:{blockName:"minecraft:wooden_slab",properties:{half:"bottom",variant:"acacia"}}}
+JSON:{blockState:{blockName:"minecraft:sandstone_stairs",properties:{half:"top",shape:"straight",facing:"east"}}}
 :enddata
 :endrule
 
@@ -349,7 +431,7 @@ rule:
 plugin=vanillaBlocks
 number=25
 data:
-JSON:{blockState:{blockName:"minecraft:sandstone_stairs",properties:{half:"top",shape:"straight",facing:"east"}}}
+JSON:{blockState:{blockName:"minecraft:sandstone_stairs",properties:{half:"top",shape:"straight",facing:"west"}}}
 :enddata
 :endrule
 
@@ -357,7 +439,7 @@ rule:
 plugin=vanillaBlocks
 number=26
 data:
-JSON:{blockState:{blockName:"minecraft:quartz_block",properties:{variant:"lines_y"}}}
+JSON:{blockState:{blockName:"minecraft:stone_slab",properties:{half:"bottom",variant:"quartz"}}}
 :enddata
 :endrule
 
@@ -365,7 +447,7 @@ rule:
 plugin=vanillaBlocks
 number=27
 data:
-JSON:{blockState:{blockName:"minecraft:sandstone_stairs",properties:{half:"top",shape:"straight",facing:"west"}}}
+JSON:{blockState:{blockName:"minecraft:sandstone_stairs",properties:{half:"bottom",shape:"straight",facing:"south"}}}
 :enddata
 :endrule
 
@@ -373,7 +455,7 @@ rule:
 plugin=vanillaBlocks
 number=28
 data:
-JSON:{blockState:{blockName:"minecraft:quartz_stairs",properties:{half:"bottom",shape:"straight",facing:"east"}}}
+JSON:{blockState:{blockName:"minecraft:quartz_block",properties:{variant:"lines_z"}}}
 :enddata
 :endrule
 
@@ -381,7 +463,7 @@ rule:
 plugin=vanillaBlocks
 number=29
 data:
-JSON:{blockState:{blockName:"minecraft:planks",properties:{variant:"acacia"}}}
+JSON:{blockState:{blockName:"minecraft:quartz_stairs",properties:{half:"bottom",shape:"straight",facing:"east"}}}
 :enddata
 :endrule
 
@@ -389,7 +471,7 @@ rule:
 plugin=vanillaBlocks
 number=30
 data:
-JSON:{blockState:{blockName:"minecraft:sandstone_stairs",properties:{half:"bottom",shape:"straight",facing:"south"}}}
+JSON:{blockState:{blockName:"minecraft:quartz_stairs",properties:{half:"bottom",shape:"straight",facing:"north"}}}
 :enddata
 :endrule
 
@@ -418,10 +500,10 @@ JSON:{blockState:{blockName:"minecraft:spruce_door",properties:{hinge:"left",hal
 :endrule
 
 rule:
-plugin=vanillaBlocks
+plugin=blockTile
 number=34
 data:
-JSON:{blockState:{blockName:"minecraft:quartz_stairs",properties:{half:"bottom",shape:"straight",facing:"south"}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:5,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"minossian",HandItems:[{id:"minecraft:iron_axe",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier.elite",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
@@ -434,10 +516,10 @@ JSON:{blockState:{blockName:"minecraft:wooden_slab",properties:{half:"top",varia
 :endrule
 
 rule:
-plugin=blockTile
+plugin=vanillaBlocks
 number=36
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_loot_chest",properties:{facing:"east"}},teData:{lootSettings:{lootRolls:1,splashPotion:0b,hasMessage:0b,hasLoot:1b,lootTableName:"minecraft:chests/simple_dungeon",spawnEntity:0b,entity:"minecraft:"},Items:[],id:"ancientwarfarestructure:advanced_loot_chest_tile",Lock:""}}
+JSON:{blockState:{blockName:"minecraft:quartz_stairs",properties:{half:"bottom",shape:"straight",facing:"west"}}}
 :enddata
 :endrule
 
@@ -445,7 +527,7 @@ rule:
 plugin=blockTile
 number=37
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:10,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"minossian",HandItems:[{id:"minecraft:iron_axe",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier.elite",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_loot_chest",properties:{facing:"east"}},teData:{lootSettings:{lootRolls:1,splashPotion:0b,hasMessage:0b,hasLoot:1b,lootTableName:"minecraft:chests/simple_dungeon",spawnEntity:0b,entity:"minecraft:"},Items:[],id:"ancientwarfarestructure:advanced_loot_chest_tile",Lock:""}}
 :enddata
 :endrule
 
@@ -453,7 +535,7 @@ rule:
 plugin=vanillaBlocks
 number=38
 data:
-JSON:{blockState:{blockName:"minecraft:quartz_stairs",properties:{half:"bottom",shape:"straight",facing:"west"}}}
+JSON:{blockState:{blockName:"minecraft:quartz_stairs",properties:{half:"bottom",shape:"straight",facing:"south"}}}
 :enddata
 :endrule
 
@@ -461,7 +543,7 @@ rule:
 plugin=doors
 number=39
 data:
-JSON:{blockState:{blockName:"minecraft:spruce_door",properties:{hinge:"right",half:"upper",powered:"false",facing:"south",open:"false"}}}
+JSON:{blockState:{blockName:"minecraft:spruce_door",properties:{hinge:"right",half:"upper",powered:"false",facing:"east",open:"false"}}}
 :enddata
 :endrule
 
@@ -469,7 +551,7 @@ rule:
 plugin=vanillaBlocks
 number=40
 data:
-JSON:{blockState:{blockName:"minecraft:quartz_stairs",properties:{half:"top",shape:"straight",facing:"north"}}}
+JSON:{blockState:{blockName:"minecraft:stone_slab",properties:{half:"top",variant:"quartz"}}}
 :enddata
 :endrule
 
@@ -477,7 +559,7 @@ rule:
 plugin=vanillaBlocks
 number=41
 data:
-JSON:{blockState:{blockName:"minecraft:stone_slab",properties:{half:"top",variant:"quartz"}}}
+JSON:{blockState:{blockName:"minecraft:quartz_stairs",properties:{half:"top",shape:"straight",facing:"west"}}}
 :enddata
 :endrule
 
@@ -485,7 +567,7 @@ rule:
 plugin=vanillaBlocks
 number=42
 data:
-JSON:{blockState:{blockName:"minecraft:quartz_stairs",properties:{half:"top",shape:"straight",facing:"west"}}}
+JSON:{blockState:{blockName:"minecraft:quartz_stairs",properties:{half:"top",shape:"straight",facing:"south"}}}
 :enddata
 :endrule
 
@@ -493,7 +575,7 @@ rule:
 plugin=vanillaBlocks
 number=43
 data:
-JSON:{blockState:{blockName:"minecraft:quartz_stairs",properties:{half:"top",shape:"straight",facing:"south"}}}
+JSON:{blockState:{blockName:"minecraft:quartz_stairs",properties:{half:"top",shape:"straight",facing:"north"}}}
 :enddata
 :endrule
 
