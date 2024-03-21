@@ -14,7 +14,7 @@ offset=11,5,5
 #### VALIDATION ####
 validation:
 type=ground
-structureAuthor=OddlySeagull
+structureAuthor=TheOddlySeagull
 worldGenEnabled=true
 unique=false
 preserveBlocks=false

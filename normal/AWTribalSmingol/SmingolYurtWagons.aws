@@ -14,7 +14,7 @@ offset=22,1,33
 #### VALIDATION ####
 validation:
 type=ground
-structureAuthor=gungnir
+structureAuthor=Gungnir
 survival=false
 worldGenEnabled=true
 unique=false
