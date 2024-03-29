@@ -14,7 +14,7 @@ offset=27,5,24
 #### VALIDATION ####
 validation:
 type=ground
-structureAuthor=OddlySeagull
+structureAuthor=TheOddlySeagull
 worldGenEnabled=true
 unique=false
 preserveBlocks=false
@@ -2515,7 +2515,7 @@ rule:
 plugin=vanillaSign
 number=248
 data:
-JSON:{signContents0:"Da Good Ol' Bar§r",blockState:{blockName:"minecraft:wall_sign",properties:{facing:"east"}},signContents2:"",signContents1:"",signContents3:"",rotation:0}
+JSON:{signContents0:"Da Good Ol' Barï¿½r",blockState:{blockName:"minecraft:wall_sign",properties:{facing:"east"}},signContents2:"",signContents1:"",signContents3:"",rotation:0}
 :enddata
 :endrule
 

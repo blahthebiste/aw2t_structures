@@ -1,6 +1,5 @@
-# minified
 # Ancient Warfare Structure Template File
-# Auto-generated structure template file. created on: 1/2/2021 at: 10:39:13
+# Auto-generated structure template file. created on: 3/15/2024 at: 14:30:47
 # Lines beginning with # denote comments
 
 header:
@@ -14,20 +13,20 @@ offset=5,6,13
 #### VALIDATION ####
 validation:
 type=ground
-structureAuthor=
+structureAuthor=TheOddlySeagull
 survival=false
 worldGenEnabled=true
 unique=false
 preserveBlocks=false
 preventNaturalHostileSpawns=true
-selectionWeight=30
-clusterValue=100
+selectionWeight=50
+clusterValue=10
 minDuplicateDistance=1000
 dimensionWhiteList=true
 dimensionList=0
-biomeGroupList=
+biomeGroupList=minossian
 biomeWhiteList=true
-biomeList=biomesoplenty:tropical_island,biomesoplenty:mangrove,nt:iron_beach,nt:orange_beach,nt:purple_beach,nt:aegean_archipelago,minecraft:beaches,nt:black_beach,biomesoplenty:white_beach,biomesoplenty:origin_beach
+biomeList=biomesoplenty:tropical_island,nt:iron_beach,biomesoplenty:origin_beach,nt:orange_beach,nt:purple_beach,nt:aegean_archipelago,biomesoplenty:white_beach,minecraft:beaches,biomesoplenty:mangrove,nt:black_beach
 leveling=12
 fill=12
 border=6
@@ -39,72 +38,167 @@ maxGenerationHeight=255
 :endvalidation
 
 #### LAYERS ####
-layer: 0-3
-14x1|11
+layer: 0
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+:endlayer
+layer: 1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+:endlayer
+layer: 2
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+:endlayer
+layer: 3
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,1,1,1,1,1,1
 :endlayer
 layer: 4
-14x2|11
+2,2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2,2
 :endlayer
 layer: 5
-2x2|11
-11x2,1|9,2
-2|11
+2,2,2,2,2,2,2,2,2,2,2
+2,2,2,2,2,2,2,2,2,2,2
+2,1,1,1,1,1,1,1,1,1,2
+2,1,1,1,1,1,1,1,1,1,2
+2,1,1,1,1,1,1,1,1,1,2
+2,1,1,1,1,1,1,1,1,1,2
+2,1,1,1,1,1,1,1,1,1,2
+2,1,1,1,1,1,1,1,1,1,2
+2,1,1,1,1,1,1,1,1,1,2
+2,1,1,1,1,1,1,1,1,1,2
+2,1,1,1,1,1,1,1,1,1,2
+2,1,1,1,1,1,1,1,1,1,2
+2,1,1,1,1,1,1,1,1,1,2
+2,2,2,2,2,2,2,2,2,2,2
 :endlayer
 layer: 6
-0|11
-0,7,0,17,1,7,0|2,7,16,0
-0|2,7,0,7,0|3,3,15,0
-0,14,5,1,5,1,5,1,5,0|2
-0|2,1,13,0,9,0,12,1,3,0
-0,3,5,7,0|2,3,0,5,0|2
-0|2,1,0|5,1,0|2
-0|2,5,0|2,5,0|2,5,1,0
-0|2,1|2,0|4,1,10,0
+0,0,0,0,0,0,0,0,0,0,0
+0,7,0,17,1,7,0,0,7,16,0
+0,0,7,0,7,0,0,0,3,15,0
+0,14,5,1,5,1,5,1,5,0,0
+0,0,1,13,0,9,0,12,1,3,0
+0,3,5,7,0,0,3,0,5,0,0
+0,0,1,0,0,0,0,0,1,0,0
+0,0,5,0,0,5,0,0,5,1,0
+0,0,1,1,0,0,0,0,1,10,0
 0,3,5,1,7,0,11,0,5,10,0
-0,9,1,8,7,0|3,1,0|2
-0|2,5,1,5,6,5,1,5,0|2
-0|3,3,1,0|2,4,3,0|2
-0|11
+0,9,1,8,7,0,0,0,1,0,0
+0,0,5,1,5,6,5,1,5,0,0
+0,0,0,3,1,0,0,4,3,0,0
+0,0,0,0,0,0,0,0,0,0,0
 :endlayer
 layer: 7
-3x0|11
-0|2,5,1,5,16,5,0,5,0|2
-0|2,22,0|5,21,0|2
-0|2,5,0|5,5,0|2
-0|2,1,0|5,16,0|2
-0|2,5,0|2,20,0|2,5,0|2
-0|3,7,0|4,1,4,0
-0|2,5,0|5,5,0|2
-0|2,1,0|5,19,0|2
-0|2,5,1,5,18,5,1,5,0|2
-2x0|11
+0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0
+0,0,5,1,5,16,5,0,5,0,0
+0,0,22,0,0,0,0,0,21,0,0
+0,0,5,0,0,0,0,0,5,0,0
+0,0,1,0,0,0,0,0,16,0,0
+0,0,5,0,0,20,0,0,5,0,0
+0,0,0,7,0,0,0,0,1,4,0
+0,0,5,0,0,0,0,0,5,0,0
+0,0,1,0,0,0,0,0,19,0,0
+0,0,5,1,5,18,5,1,5,0,0
+0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0
 :endlayer
 layer: 8
-3x0|11
-0|2,3,22,5,16,0,23,5,0|2
-0|8,1,0|2
-0|8,5,0|2
-0|2,8,0|5,16,0|2
-0|2,5,0|5,5,0|2
-0|2,16,0|5,15,0|2
-0|2,5,0|8
-0|2,7,0|8
-0|2,5,0,5,1,5,1,5,0|2
-2x0|11
+0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0
+0,0,3,22,5,16,0,23,5,0,0
+0,0,0,0,0,0,0,0,1,0,0
+0,0,0,0,0,0,0,0,5,0,0
+0,0,8,0,0,0,0,0,16,0,0
+0,0,5,0,0,0,0,0,5,0,0
+0,0,16,0,0,0,0,0,15,0,0
+0,0,5,0,0,0,0,0,0,0,0
+0,0,7,0,0,0,0,0,0,0,0
+0,0,5,0,5,1,5,1,5,0,0
+0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0
 :endlayer
 layer: 9
-3x0|11
-0|5,7,0|5
-0|11
-0|8,5,0|2
-0|11
-0|8,4,0|2
-0|11
-0|2,5,0|8
-0|11
-0|2,3,0|3,5,7,0|3
-2x0|11
+0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,7,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,5,0,0
+0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,4,0,0
+0,0,0,0,0,0,0,0,0,0,0
+0,0,5,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0
+0,0,3,0,0,0,5,7,0,0,0
+0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0
 :endlayer
+
 #### RULES ####
 rule:
 plugin=vanillaBlocks
@@ -190,7 +284,7 @@ rule:
 plugin=blockTile
 number=11
 data:
-JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:6,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"minossian",HandItems:[{id:"minecraft:iron_axe",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier.elite",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
+JSON:{blockState:{blockName:"ancientwarfarestructure:advanced_spawner",properties:{transparent:"true"}},teData:{id:"ancientwarfarestructure:advanced_spawner_tile",spawnerSettings:{minDelay:10,spawnDelay:3,lightSensitive:0b,spawnGroups:[{settingsList:[{remainingSpawnCount:1,hostile:1b,customTag:{ArmorDropChances:[0.085f,0.085f,0.085f,0.085f],hasCustomEquipment:0b,ArmorItems:[{},{},{},{}],skinSettings:{npcTypeName:"custom",skinTypeSelected:"default"},HandDropChances:[0.085f,0.085f],factionName:"minossian",HandItems:[{id:"minecraft:iron_axe",Count:1b,Damage:0s},{}]},maxToSpawn:1,entityId:"ancientwarfarenpc:faction.soldier.elite",minToSpawn:1}],groupWeight:1}],playerRange:16,respondToRedstone:0b,inventory:{Size:9,Items:[]},spawnRange:0,transparent:1b,maxDelay:10,spawnYOffset:0,xpToDrop:0,mobRange:0,debugMode:0b,maxNearbyMonsters:0}}}
 :enddata
 :endrule
 
